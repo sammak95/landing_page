@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0px;
+    
+}
+
+.header .header_links {
+    display: flex;
+    gap: 10px;
+    
+}
+.header .header_links a{
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+.intro {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
+    padding: 50px 0px;
+}
+
+.intro img {
+    border-radius: 7px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.description .signup1 {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    display: inline;
+    width: 60px;
+}
+
+.infoline {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px 0px;
+
+}
+.intro .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.info .img img{
+    border: 2px solid #1F2937;
+    border-radius: 7px;
+
+}
+
+.quote {
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.call {
+    margin: 30px 50px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 0px;
+}
+
+.action .signup2 {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    display: inline;
+    width: 60px;
+    border-color: white;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 10px 0px;
+    font-size: 12px;
+}
